@@ -22,7 +22,6 @@ def setup():
             Slash(x, y, SLASH_LENGTH)
 
 def draw():
-    saveFrame("data/10print-vid-######.png")
     background(0)
     for _ in xrange(CHANGES_PER_SECOND):
         Slash.flip_one()
